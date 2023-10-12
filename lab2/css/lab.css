@@ -4,6 +4,27 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 5px #352279;
+    background-color: #393592;
+  }
+  h1 {
+    color:white;
+    font-style: italic;
+    font-size: larger;
+    font-family:Franklin Gothic Medium;
+  }
+  p { 
+    text-indent: 30px;
+    color: aliceblue;
+    font-family:gill sans;
+  }
+  #content {
+    background-color: rgb(124, 124, 209);
+    border-color: rgb(124, 144, 255);
+    border-width: 5px;
+    border-style:dashed;
+  }
+
+  h2 {
+    color: rgb(124, 144, 255);
   }
