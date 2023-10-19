@@ -4,6 +4,30 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 5px #f6fcff;
+    background-color: #ffffff;
   }
+  #me {
+    width: 300px;
+}
+.minor-section {
+  background-color: #a0c2ee;
+}
+#lab3 {
+  width: 800px;
+}
+#task1code {
+  width: 300px;
+}
+#task2code {
+  width: 300px;
+}
+#task2 {
+  width: 300px;
+}
+#task3code {
+  width: 300px;
+}
+#task3 {
+  width: 300px;
+}
