@@ -4,6 +4,41 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 5px #0c4c26;
+    background-color: #afceae;
   }
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 15px #edfff3;
+    border-style: dotted;
+    background-color: #80a873;
+  }
+  body {
+    background-color: #a3c292;
+  }
+  h1 {
+    font-family: Franklin Gothic Medium;
+   text-indent: 270px;
+   color: #404c0c;
+}
+h2 {
+  text-indent: 420px;
+  color: #093005;
+  font-weight: bolder;
+  font-family: Cochin;
+}
+h3 {
+  font-family: Cochin;
+  color: #404c0c;
+  font-weight: bolder;
+  font-size: x-large;
+}
+h4 {
+  font-family: Lucida Sans Unicode;
+  color: #093005;
+  font-weight: bolder;
+}
+ul {
+  color: white
+}
