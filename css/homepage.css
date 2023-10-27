@@ -15,21 +15,36 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 4px #ffffff;
+  border: solid 8px #ffffff;
+  border-radius: 30px;
+  border-style: dotted;
   background-color: #dcd3ff;
 }
 
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 4px #ffffff;
-  background-color: #c7f1ff;
+  border: solid 5px #e1f0ff;
+  background-color: #ffffff;
+  border-radius: 30px;
 }
 #cow {
   width: 300px;
 }
 #me {
+  border: solid 5px #f7ccf9;
+  border-radius: 700px;
   width: 300px;
+}
+
+/* Credit to WesBot for ".photo-box" code below to help center image */
+
+.photo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .cat-photo {
@@ -46,23 +61,18 @@ h1 {
   justify-content: space-between;
 }
 
-.photo-box {
-  width: 50%;
-  flex-basis: 50%;
+.title-page {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 10px white;
 }
 
-.photo-box img {
-  width: 100%;
-}
-.text-box {
-  flex-basis: 50%;
-}
 ul {
   text-align: center;
   font-style: italic;
   font-family: Haettenschweiler;
   font-size: 75%;
-  color: #306396;
+  color: #93c9ff;
 }
 h3 {
   font-size: 150%;
@@ -73,15 +83,20 @@ h3 {
   color: #233d59;
 }
 h1 {
-  color: #306396;
-  text-indent: 500px;
-  font-family: Cambria;
-  font-weight: lighter;
+  color: #acd5ff;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Gill Sans MT';
+  font-weight: bolder;
 }
 h2 {
   font-weight: lighter;
   font-family: Cambria;
-  text-indent: 600px;
-  color: #275b94;
+  text-align: center;
+  color: #acd5ff;
+}
 
+p {
+  text-align: center;
+  font-size: large;
 }

@@ -4,6 +4,40 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border-radius: 30px;
+    border: solid 1px #c6c6c6;
+    background-color: #ffffff;
   }
+body {
+  background-color: silver;
+}
+#content {
+border-radius: 30px;
+border-color: 0px #ffffff;
+background-color: #e5e5e5;
+}
+
+  #Cleo {
+    width: 650px;
+    border: solid 5px rgb(88, 88, 88);
+    border-radius: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Lucida Sans Unicode;
+  }
+
+  h2 {
+    text-align:left;
+    font-size: medium;
+    font-family: Lucida Sans Unicode;
+  }
+  p {
+    font-size: medium;
+    font-family: Lucida Sans Unicode;
+    color: #535353;
+  }
+
+  
