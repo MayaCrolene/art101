@@ -4,6 +4,35 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #ffffff;
+    background-color: #f7eeee;
+    border-radius: 20px;
+
+    body {
+      background-color: #333333;
+    }
   }
+  #Cleo {
+    width: 600px;
+  }
+h1 {
+  font-family: 'Times New Roman';
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+}
+#content {
+  border: 10px #c2c7fd;
+  border-style: dotted;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman';
+  font-size: large;
+  font-style: oblique;
+}
+p {
+  text-align: center;
+}

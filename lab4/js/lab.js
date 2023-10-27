@@ -34,4 +34,3 @@ main();
     //Players are able to guess wrong 7 times before they lose
 //Once the hangman is completely drawn Player 1 wins
 //If the other player(s) are able to solve the word/phrase correctly then they win
-
