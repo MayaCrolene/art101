@@ -1,0 +1,73 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 3px #ffcaca;
+    background-color: #ffffff;
+  }
+body {
+  background-color: rgb(255, 88, 88);
+}
+#content {
+border-radius: 5px;
+background-color: #ffc2b2;
+border: solid 3px#880404;
+}
+
+  #hello {
+  size: 500px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana;
+    color: #ffffff;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana;
+    color: #860909;
+  }
+  p {
+    text-indent: 20px;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana;
+    color: #500000;
+  }
+  .image {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 3px #ffcaca;
+}
+  .rightdiv {
+    float: right;
+  }
+
+  script {
+    font-size: xx-large;
+    color: #ff0000;
+  }
+  .image-text {
+    position: absolute;
+    top: 40%; 
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    z-index: 1;
+  }
+  .div1 {
+    text-align: left;
+    }
+  .div2 {
+    text-align: right;
+  }
