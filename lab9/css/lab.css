@@ -1,0 +1,79 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #aecd7e;
+    background-color: #f5fff8;
+    border-radius: 30px;
+  }
+  .section1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #aecd7e;
+    background-color: #f5fff8;
+    border-radius: 30px;
+  }
+  .section2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #aecd7e;
+    background-color: #f5fff8;
+    border-radius: 30px;
+  }
+  .section3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #aecd7e;
+    background-color: #f5fff8;
+    border-radius: 30px;
+  }
+  .div1 {
+    text-align: left;
+    }
+  .div2 {
+    text-align: right;
+  }
+
+  body {
+    background-color: rgb(198, 246, 161);
+  }
+  #content {
+  border-radius: 30px;
+  background-color: #74a362;
+  border: solid 3px#5e8804;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: #ffffff;
+  }
+
+  h2 {
+    text-align: left;
+    font-family: 'Arial Narrow Bold';
+    color: #766810;
+    font-size: larger;
+    font-weight: lighter;
+  }
+
+  p {
+    font-family: 'Arial Narrow Bold';
+    color: #7c541c;
+    font-size: larger;
+    text-align: center;
+  }
+
+  .photodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  #ss {
+    width: 600px;
+  }
