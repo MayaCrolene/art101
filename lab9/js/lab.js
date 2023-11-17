@@ -28,7 +28,7 @@ $("#button-problems").click(function(){
 });
 
 // Click listener for Problems
-$("button-problems").click(function(){
+$("#button-problems").click(function(){
   $(".section2").toggleClass("special");
 });
 
@@ -45,10 +45,15 @@ $("#button-results").click(function(){
 });
 
 // Click listener for Results
-$("button-results").click(function(){
+$("#button-results").click(function(){
   $(".section3").toggleClass("special");
 });
 
 $("#button-results").mouseleave(function(){
   $(".section3").css("background-color", "white");
+});
+
+// In-Class Toggle button
+$("#makehide").click(function(){
+  $("#In-class review").toggleClass(".buttoninfo");
 });

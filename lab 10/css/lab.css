@@ -1,0 +1,111 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #ba86dd;
+    background-color: #f7eefc;
+    border-radius: 30px;
+  }
+  .section1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #8f7ecd;
+    background-color: #fdf5ff;
+    border-radius: 30px;
+  }
+  .section2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #c5a1e8;
+    background-color: #f4ecff;
+    border-radius: 30px;
+  }
+  .section3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #ab7ecd;
+    background-color: #fdf5ff;
+    border-radius: 30px;
+  }
+  .div1 {
+    text-align: left;
+    }
+  .div2 {
+    text-align: right;
+  }
+
+  body {
+    background-color: rgb(161, 164, 246);
+  }
+  #content {
+  border-radius: 30px;
+  background-color: #a694e1;
+  border: solid 3px#793891;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: #ffffff;
+  }
+
+  h2 {
+    text-align: left;
+    font-family: 'Arial Narrow Bold';
+    color: #103476;
+    font-size: larger;
+    font-weight: lighter;
+  }
+
+  p {
+    font-family: 'Arial Narrow Bold';
+    color: #2e1c7c;
+    font-size: larger;
+    text-align: center;
+  }
+
+  .photodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  #ss {
+    width: 600px;
+  }
+
+  #output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #8f7ecd;
+    background-color: #fdf5ff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .text p {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(70, 147, 249);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.text {
+  width: fit-content;
+  max-width: 60%;
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
