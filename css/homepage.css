@@ -12,6 +12,13 @@ h1 {
   font-size: 200%;
 }
 
+.bio-box {
+  border: solid 4px #ebbdff;
+  border-radius: 30px;
+  border-style: solid;
+  background-color: #ebf8ff;
+}
+
 #content {
   margin: 10px;
   padding: 10px;
@@ -32,7 +39,8 @@ h1 {
   width: 300px;
 }
 #me {
-  border: solid 5px #f7ccf9;
+  padding: 10px;
+  border: dotted 5px #f7ccf9;
   border-radius: 700px;
   width: 300px;
 }
@@ -49,7 +57,7 @@ h1 {
 
 .cat-photo {
   margin: 10px;
-  max-width: 500px;
+  max-width: 500px; 
 }
 
 *PHOTO
@@ -68,7 +76,7 @@ h1 {
 }
 
 ul {
-  text-align: center;
+  text-align: left;
   font-style: italic;
   font-family: Haettenschweiler;
   font-size: 75%;
@@ -99,4 +107,5 @@ h2 {
 p {
   text-align: center;
   font-size: large;
+  color: #000000;
 }

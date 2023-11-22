@@ -1,12 +1,6 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 5px #f6fcff;
-    background-color: #ffffff;
-  }
   #me {
     width: 300px;
 }
@@ -30,4 +24,43 @@
 }
 #task3 {
   width: 300px;
+}
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #ffffff;
+  border-radius: 30px;
+}
+
+.div1 {
+  text-align: left;
+  }
+.div2 {
+  text-align: right;
+}
+
+#content {
+border-radius: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial Narrow Bold';
+  color: #000000;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Arial Narrow Bold';
+  color: #000000;
+  font-size: larger;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Arial Narrow Bold';
+  color: #000000;
+  font-size: larger;
+  text-align: center;
 }
