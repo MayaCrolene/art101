@@ -31,8 +31,11 @@ for(var index=1; index<=200; index++) {
    }
    else {
      console.log(index);
+
  //Make it so the output of your program appears in your output div.
+
  //Then after you've run through all the numbers, output the str at the end to your output div using:
+ 
 str = console.log;
      str += "Fizz!";
  $("#output").append("<h3>" + "Fizz!" + "</h3>");

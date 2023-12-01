@@ -21,5 +21,5 @@ function sortUserName(){
 }
 
   //Output and Results
-  document.writeln("Here is your much better new name: ", 
+  document.writeIn("Here is your much better new name: ", 
     sortUserName(), "</br>");
