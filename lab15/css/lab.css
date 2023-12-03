@@ -1,77 +1,75 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+#output {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #c4e7ff;
+  background-color:#fffdf2;
+  border-radius: 30px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
 #minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: dashed 5px #98d420;
-    background-color:#fffbc3;
+    border: solid 3px #70a7ff;
+    background-color:#ffe3fa;
     border-radius: 30px;
   }
 
   .section1 {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #a8cc44;
-    background-color: #fee5b5;
+    border: solid 3px #f5c4ff;
+    background-color: #fffdf2;
     border-radius: 30px;
   }
   .section2 {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #a8cc44;
-    background-color:#fee5b5;
+    border: solid 3px #f5c4ff;
+    background-color:#fffdf2;
     border-radius: 30px;
   }
   .section3 {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #a8cc44;
-    background-color:#fee5b5;
-    border-radius: 30px;
-  }
-
-  .Debugging {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 3px #809026;
-    background-color:#fcffdb;
+    border: solid 3px #f5c4ff;
+    background-color:#fffdf2;
     border-radius: 30px;
   }
 
   .div1 {
     text-align: left;
     }
-
-    .middlelink {
-    text-align: center;
-    }
-
   .div2 {
     text-align: right;
   }
 
   body {
-    background-color: rgb(106, 120, 41);
+    background-color: rgb(192, 222, 255);
   }
 
   h1 {
     text-align: center;
     font-family: 'Arial Narrow Bold';
-    color: #452807;
+    color: #7c1b64;
   }
 
   h2 {
     text-align: left;
     font-family: 'Arial Narrow Bold';
-    color: #a7b13b;
+    color: #3b51b1;
     font-size: larger;
     font-weight: lighter;
   }
 
   p {
     font-family: 'Arial Narrow Bold';
-    color: #7c6339;
+    color: #3080d0;
     font-size: larger;
     text-align: center;
   }
@@ -79,51 +77,27 @@
   h3 {
     text-align: center;
     font-family: 'Arial Narrow Bold';
-    color: #cea768;
+    color: #4f0f32;
     font-size: larger;
     font-weight: lighter;
   }
   
-  .bad {
-    position: relative;
-    left: 200px;
-    bottom: 70px;
-  }
-
-  #bad {
-    width: 400px; 
-  }
-
-  .good {
-    position: relative;
-    left: 770px;
-    bottom: 325px;
-  }
-
-  #good {
-    width: 400px;
-  }
-
-  .text {
-    position: relative;
-    bottom: 325px;
-  }
 
 /* Credit to W3Schools for the link color change */
 a:link {
-  color: rgb(66, 47, 0);
+  color: rgb(93, 7, 64);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(255, 115, 0);
+  color: rgb(0, 140, 255);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(151, 168, 0);
+  color: rgb(180, 43, 169);
   background-color: transparent;
   text-decoration: underline;
 }

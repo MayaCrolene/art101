@@ -42,8 +42,13 @@
   .div1 {
     text-align: left;
     }
-  .div2 {
+
+  .middlelink {
     text-align: right;
+    }
+
+  .div2 {
+    text-align: center;
   }
 
   body {
