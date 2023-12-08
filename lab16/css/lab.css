@@ -1,0 +1,102 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #698eb5;
+    background-color:rgb(232, 243, 194);
+    border-radius: 30px;
+  }
+
+  #output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #86b4c3;
+    background-color:#f6faff;
+    border-radius: 30px;
+  }
+
+  .section1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #adc386;
+    background-color:#f6fffa;
+    border-radius: 30px;
+  }
+  .section2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #adc386;
+    background-color:#f6fffa;
+    border-radius: 30px;
+  }
+  .section3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #adc386;
+    background-color:#f6fffa;
+    border-radius: 30px;
+  }
+
+  .div1 {
+    text-align: left;
+    }
+  .div2 {
+    text-align: right;
+  }
+
+  body {
+    background-color: #c4e4da;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: #4b7096;
+  }
+
+  h2 {
+    text-align: left;
+    font-family: 'Arial Narrow Bold';
+    color: #0f4f44;;
+    font-size: larger;
+    font-weight: lighter;
+  }
+
+  p {
+    font-family: 'Arial Narrow Bold';
+    color: #303874;
+    font-size: larger;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: #0f4f44;
+    font-size: larger;
+    font-weight: lighter;
+  }
+  
+
+/* Credit to W3Schools for the link color change */
+a:link {
+  color: rgb(95, 195, 186);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(149, 195, 63);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(238, 134, 229);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
