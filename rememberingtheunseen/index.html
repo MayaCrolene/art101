@@ -22,11 +22,99 @@
 		</div>
 			<div class="section1">
 					<h2>So you want to know the truth.</h2>
-					<h3>What truth would you like to know about?</h3>
+					<h3>What truth would you like to know about?</h3>				
+				<div class="extend">
+			<!-- THANK YOU W3SCHOOLS CREDIT FOR SLIDING PHOTOBOX -->
+				<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 6</div>
+									<img src="img/map.png" style="width:100%">
+									<div class="text">Map of Santa Cruz</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 6</div>
+									<img src="img/mapmission.png" style="width:100%">
+									<div class="text">Natives at the Mission</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">3 / 6</div>
+									<img src="img/mapcem.png" style="width:100%">
+									<div class="text">Indigenous Bodies at the Cemetery</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">4 / 6</div>
+									<img src="img/mapkkk.png" style="width:100%">
+									<div class="text">Pacific St KKK March</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">5 / 6</div>
+									<img src="img/mapchina.png" style="width:100%">
+									<div class="text">Chinatown</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">6 / 6</div>
+									<img src="img/mapwater.png" style="width:100%">
+									<div class="text">Lynching at Water St Bridge</div>
+								</div>
+
+									<a class="prev" onclick="plusSlides(-1)">❮</a>
+									<a class="next" onclick="plusSlides(1)">❯</a>
+									
+								</div>
+									<br>
+									
+								<div style="text-align:center">
+									<span class="dot" onclick="currentSlide(1)"></span> 
+									<span class="dot" onclick="currentSlide(2)"></span> 
+									<span class="dot" onclick="currentSlide(3)"></span> 
+									<span class="dot" onclick="currentSlide(4)"></span>
+									<span class="dot" onclick="currentSlide(5)"></span>
+									<span class="dot" onclick="currentSlide(6)"></span>
+								</div>
+							<script>
+									let slideIndex = 1;
+									showSlides(slideIndex);
+										
+									function plusSlides(n) {
+									showSlides(slideIndex += n);
+									}
+									
+									function currentSlide(n) {
+									showSlides(slideIndex = n);
+									}
+										
+									function showSlides(n) {
+									let i;
+									let slides = document.getElementsByClassName("mySlides");
+									let dots = document.getElementsByClassName("dot");
+									if (n > slides.length) {slideIndex = 1}    
+									if (n < 1) {slideIndex = slides.length}
+									for (i = 0; i < slides.length; i++) {
+										slides[i].style.display = "none";  
+									}
+										for (i = 0; i < dots.length; i++) {
+											dots[i].className = dots[i].className.replace(" active", "");
+										}
+										slides[slideIndex-1].style.display = "block";  
+										dots[slideIndex-1].className += " active";
+										}
+								</script>
+					</div>
 					<p>Click the links below to read true stories that have happened at the location you are standing on.</p>
+				<div id="link">
 					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Mission Santa Cruz</a>
 					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Old Holy Cross Cemetery</a>
-					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Sundown Town</a>
+					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Ku Klux Klan in Santa Cruz</a>
+					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Chinatown</a>
+					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Lynching on Water St Bridge</a>
+				</div>
+			</div>
+			</div>
 			</div>
 
 			<div class="section2">
@@ -36,11 +124,11 @@
 			</div>
 
 			<div class="section3">
-					<h2>Click this button to see more</h2>
-					<div id="output">
-						<button id="button">Click me.</button>
-						<p>text here</p>
-					</div>
+					<h2>Do you choose to do your part in society by relearning historic truths and unlearning colonial myths? </h2>
+				<div class="photobox">
+					<img id="pill" src="img/redpillbluepill.jpg" alt="redpill" />
+				</div>
+						<h4>*Credit for all images and artwork go to original creators*</h4>
 			</div>
 			</div>
 				</div>

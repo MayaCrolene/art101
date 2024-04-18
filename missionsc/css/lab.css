@@ -67,7 +67,7 @@
 
   p {
     font-family: 'Arial Narrow Bold';
-    color: #5c5c5c;
+    color: #000000;
     font-size: larger;
     text-align: center;
   }
@@ -83,7 +83,7 @@
 
 /* Credit to W3Schools for the link color change */
 a:link {
-  color: rgb(86, 87, 87);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
@@ -113,4 +113,8 @@ a:hover {
   bottom: 8px;
   height: 100%;
   margin: 0 auto;
+}
+
+#link {
+  text-align: center;
 }
