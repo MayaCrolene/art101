@@ -106,7 +106,7 @@
 
 /* Credit to W3Schools for the link color change */
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(150, 150, 150);
   background-color: transparent;
   text-decoration: none;
   font-family:'Times New Roman';

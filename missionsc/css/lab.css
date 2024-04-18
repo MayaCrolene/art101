@@ -83,7 +83,7 @@
 
 /* Credit to W3Schools for the link color change */
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(150, 150, 150);
   background-color: transparent;
   text-decoration: none;
 }
@@ -100,7 +100,7 @@ a:hover {
   text-decoration: underline;
 }
 #bwm {
-  width: 650px;
+  width: 300px;
   border: dashed 3px rgb(151, 0, 0);
   border-radius: 20px;
 }
