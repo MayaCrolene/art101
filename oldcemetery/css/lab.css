@@ -1,0 +1,138 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+#minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #000000;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+
+  #output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #000000;
+    background-color:rgb(240, 240, 240);
+    border-radius: 10px;
+  }
+
+  .section1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #757575;
+    background-color:rgb(227, 227, 227);
+    border-radius: 10px;
+  }
+  .section2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 3px #d6d6d6;
+    background-color:rgb(247, 247, 247);
+    border-radius: 10px;
+  }
+  .section3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #757575;
+    background-color:rgb(227, 227, 227);
+    border-radius: 10px;
+  }
+
+  .div1 {
+    text-align: left;
+    }
+  .div2 {
+    text-align: right;
+  }
+
+  body {
+    background-color: #939393;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Haettenschweiler';
+    color: #0a121a;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: x-large; 
+    font-weight: bold;
+    font-family: 'Haettenschweiler';
+    color: #7c1717;
+  }
+
+  p {
+    font-family: 'Arial Narrow Bold';
+    color: #000000;
+    font-size: larger;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: #000000;
+    font-size: larger;
+    font-weight: bold; 
+  }
+  
+
+/* Credit to W3Schools for the link color change */
+a:link {
+  color: rgb(150, 150, 150);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(71, 71, 71);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(154, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+#bwm {
+  width: 300px;
+  border: dashed 3px rgb(151, 0, 0);
+  border-radius: 20px;
+}
+
+.photobox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 8px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#link {
+  text-align: center;
+}
+
+
+/* UPDATED IMG */
+
+#grave {
+  width: 400px;
+  border: dashed 3px rgb(151, 0, 0);
+  border-radius: 20px;
+}
+
+.moreinfo {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #757575;
+  background-color:rgb(227, 227, 227);
+  border-radius: 10px;
+  text-align: center;
+}

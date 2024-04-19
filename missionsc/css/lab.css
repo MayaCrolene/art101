@@ -28,8 +28,8 @@
   .section2 {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #757575;
-    background-color:rgb(227, 227, 227);
+    border: dashed 3px #d6d6d6;
+    background-color:rgb(247, 247, 247);
     border-radius: 10px;
   }
   .section3 {
@@ -105,6 +105,18 @@ a:hover {
   border-radius: 20px;
 }
 
+#in {
+  width: 310px;
+  border: solid 0px rgb(0, 0, 0);
+  border-radius: 0px;
+}
+
+#mc {
+  width: 350px;
+  border: solid 0px rgb(0, 0, 0);
+  border-radius: 0px;
+}
+
 .photobox {
   position: relative;
   display: flex;
@@ -117,4 +129,23 @@ a:hover {
 
 #link {
   text-align: center;
+}
+
+.moreinfo {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 3px #757575;
+  background-color:rgb(227, 227, 227);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.imgsec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 8px;
+  height: 100%;
+  margin: 0 auto;
 }
