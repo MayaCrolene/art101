@@ -99,11 +99,6 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-#bwm {
-  width: 300px;
-  border: dashed 3px rgb(151, 0, 0);
-  border-radius: 20px;
-}
 
 .photobox {
   position: relative;
@@ -123,7 +118,7 @@ a:hover {
 /* UPDATED IMG */
 
 #grave {
-  width: 400px;
+  width: 350px;
   border: dashed 3px rgb(151, 0, 0);
   border-radius: 20px;
 }
