@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Taking Art to the Streets</title>
+  	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="js/lab.js" DEFER></script>
+</head>
+<!-- Start of webpage -->
+<body>
+	<main id="minor-section">
+		<section>
+		<head>
+			<h1>Project 1: Re-membering the Unseen - Santa Cruz Shadows and the Ghosts of Settler Colonialism</h1>
+		</head>
+		</div>
+			<div class="section1">
+					<h2>How I did it.</h2>
+					<h3>Here are some images from the project.</h3>				
+				<div class="extend">
+			<!-- THANK YOU W3SCHOOLS CREDIT FOR SLIDING PHOTOBOX -->
+				<div class="slideshow-container">
+								<div class="mySlides fade">
+									<div class="numbertext">1 / 11</div>
+									<img src="img/img1.jpg" style="width:100%">
+									<div class="text">Made and printed QR Codes</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">2 / 11</div>
+									<img src="img/img2.jpg" style="width:100%">
+									<div class="text">Mission</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">3 / 11</div>
+									<img src="img/img3.jpg" style="width:100%">
+									<div class="text">Mission</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">4 / 11</div>
+									<img src="img/img4.jpg" style="width:100%">
+									<div class="text">Cemetery</div>
+								</div>
+									
+								<div class="mySlides fade">
+									<div class="numbertext">5 / 11</div>
+									<img src="img/img5.jpg" style="width:100%">
+									<div class="text">Chinatown</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">6 / 11</div>
+									<img src="img/img6.jpg" style="width:100%">
+									<div class="text">Chinatown</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">7 / 11</div>
+									<img src="img/img7.jpg" style="width:100%">
+									<div class="text">Water St Bridge</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">8 / 11</div>
+									<img src="img/img8.jpg" style="width:100%">
+									<div class="text">Water St Bridge</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">9 / 11</div>
+									<img src="img/img9.jpg" style="width:100%">
+									<div class="text">Pacific Ave</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">10 / 11</div>
+									<img src="img/img10.jpg" style="width:100%">
+									<div class="text">Pacific Ave</div>
+								</div>
+
+								<div class="mySlides fade">
+									<div class="numbertext">11 / 11</div>
+									<img src="img/img11.jpg" style="width:100%">
+									<div class="text">Pacific Ave</div>
+								</div>
+
+									<a class="prev" onclick="plusSlides(-1)">❮</a>
+									<a class="next" onclick="plusSlides(1)">❯</a>
+									
+								</div>
+									<br>
+									
+								<div style="text-align:center">
+									<span class="dot" onclick="currentSlide(1)"></span> 
+									<span class="dot" onclick="currentSlide(2)"></span> 
+									<span class="dot" onclick="currentSlide(3)"></span> 
+									<span class="dot" onclick="currentSlide(4)"></span>
+									<span class="dot" onclick="currentSlide(5)"></span>
+									<span class="dot" onclick="currentSlide(6)"></span>
+									<span class="dot" onclick="currentSlide(7)"></span>
+									<span class="dot" onclick="currentSlide(8)"></span>
+									<span class="dot" onclick="currentSlide(9)"></span>
+									<span class="dot" onclick="currentSlide(10)"></span>
+									<span class="dot" onclick="currentSlide(11)"></span>
+								</div>
+							<script>
+									let slideIndex = 1;
+									showSlides(slideIndex);
+										
+									function plusSlides(n) {
+									showSlides(slideIndex += n);
+									}
+									
+									function currentSlide(n) {
+									showSlides(slideIndex = n);
+									}
+										
+									function showSlides(n) {
+									let i;
+									let slides = document.getElementsByClassName("mySlides");
+									let dots = document.getElementsByClassName("dot");
+									if (n > slides.length) {slideIndex = 1}    
+									if (n < 1) {slideIndex = slides.length}
+									for (i = 0; i < slides.length; i++) {
+										slides[i].style.display = "none";  
+									}
+										for (i = 0; i < dots.length; i++) {
+											dots[i].className = dots[i].className.replace(" active", "");
+										}
+										slides[slideIndex-1].style.display = "block";  
+										dots[slideIndex-1].className += " active";
+										}
+								</script>
+					</div>
+					<p>Click the links below to read true stories that have happened at the location you are standing on.</p>
+				<div id="link">
+					<a href="https://mayacrolene.github.io/art101/rememberingtheunseen/index.html">• Return to Start</a>
+					<a href="https://mayacrolene.github.io/art101/missionsc/index.html">• Mission Santa Cruz</a>
+					<a href="https://mayacrolene.github.io/art101/oldcemetery/index.html">• Old Holy Cross Cemetery</a>
+					<a href="https://mayacrolene.github.io/art101/sckkk/index.html">• Ku Klux Klan in Santa Cruz</a>
+					<a href="https://mayacrolene.github.io/art101/scchinatown/index.html">• Chinatown</a>
+					<a href="https://mayacrolene.github.io/art101/waterst/index.html">• Lynching on Water St Bridge</a>
+				</div>
+			</div>
+				</div>
+		</section>
+			</div>
+		</nav>
+	</main>
+</body>
+</html>
